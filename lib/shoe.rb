@@ -13,8 +13,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def initialize
-    @BRANDS = BRANDS
-
+  def brand(brand)
+    @BRANDS = brand
   end
 end
